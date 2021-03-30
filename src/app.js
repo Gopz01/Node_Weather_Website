@@ -94,5 +94,5 @@ app.get('*', (req,res) => {
     })
 })
 app.listen(port, () => {
-    console.log("The server is up running!")
+    console.log("The server is up running on port "+ port)
 })
